@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class = "jumbotron">
+        <h1>Deals @ Flipkart </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 text-center">
+            {% for deal in deal_list %}
+            <div class="card text-center" style="width:100%;">
+                <div class="card_body">
+                    <h5 class="card-title">{{ deal.title }}</h5>
+                    <h6 class="card-title">{{ deal.price }}</h6>
+                    <a href="{{ deal.url }}" class="btn btn-primary">GO</a>
+                </div>
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
