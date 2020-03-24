@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<center>
+    <h1>YOUR NOTES</h1>
+    <br>
+    {% csrf_token %}
+    <ul>
+        {% for object in objects_list %}
+            <li>
+                <br>
+                {{ object }}<small><a href="{{ object.get_delete_url }}">   DELETE  </a><br></small><small><a href="{{ object.get_update_url }}">   UPDATE  </a></small>
+            </li>
+        {% endfor %}
+    </ul>
+
+</center>
+
+</body>
+</html>
