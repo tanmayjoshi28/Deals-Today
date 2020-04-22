@@ -2,7 +2,7 @@
 
 ### Install [Django](https://docs.djangoproject.com/en/3.0/intro/install/) and [BeautifullSoup](https://pypi.org/project/beautifulsoup4/)
 #### To Run open Terminal :
-Go to directory in which manage.py is located :
+#####Go to directory in which manage.py is located :
 ENTER the follwing stepwise
 ```
 python manage.py makemigrations
@@ -10,7 +10,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### if it is showing error python not defined :
+### If it is showing error python not defined :
 Refer [This](https://geek-university.com/python/add-python-to-the-windows-path/) Article
 
 
