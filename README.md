@@ -14,9 +14,9 @@ python manage.py runserver
 Refer [This](https://geek-university.com/python/add-python-to-the-windows-path/) Article
 
 ## To access Admin :
-### First create a superuser by:
+### First create a superuser:
 #### Open Terminal :
-####### Go to directory in which manage.py is located :
+#### Go to directory in which manage.py is located :
 ```
 python manage.py createsuperuser
 ```
