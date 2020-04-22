@@ -4,11 +4,11 @@
 #### To Run open Terminal :
 Go to directory in which manage.py is located 
 ENTER the follwing stepwise
-'''
+```
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
-'''
+```
 
 
 
